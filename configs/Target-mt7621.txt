@@ -2,15 +2,10 @@ CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_MULTI_PROFILE=y
 
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_asus_rt-ax53u=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_asus_rt-ax54=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_cudy_m1300-v2=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_hiwifi_hc5962=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_jcg_q20=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_jdcloud_re-cp-02=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_ruijie_rg-ew1200g-pro-v1.1=y
-CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mi-router-cr660x=y
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_xiaomi_mi-router-3g=y
+CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_newifi-d2=y
 
+ONFIG_TARGET_PER_DEVICE_ROOTFS=y
 #极简版插件（放过这个CPU吧）
 
 # 科学插件调整
@@ -42,4 +37,5 @@ CONFIG_PACKAGE_kmod-usb-storage=y
 
 # 组件调整
 CONFIG_PACKAGE_htop=y
-
+CONFIG_PACKAGE_kmod-mt7603=y
+CONFIG_PACKAGE_kmod-mt76x2=y
